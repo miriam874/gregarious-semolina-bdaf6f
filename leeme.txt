@@ -1,0 +1,33 @@
+PARTY BOX · LANDING PAGE - FERRUCCIO SOPPELSA
+=============================================
+
+ARCHIVOS
+- index.html: página web completa
+- styles.css: estilos responsive
+- script.js: menú, formulario, validación y comportamientos
+- enviar.php: recepción de consultas con adjuntos por correo
+- assets/: logos, fotos e íconos originales + versiones web optimizadas
+
+PARA VER LA VISTA PREVIA
+1. Abrir index.html en Chrome, Edge o Firefox.
+2. Navegar la página, usar el menú, probar los campos y subir archivos.
+3. En este modo local, el formulario NO envía correos: muestra un aviso de prueba.
+
+PARA PUBLICAR Y RECIBIR CONSULTAS REALES
+1. Subir todos los archivos y la carpeta assets/ al hosting con soporte PHP.
+2. Editar enviar.php: cambiar $destinationEmail por el correo donde llegan las consultas.
+3. Cambiar $senderEmail por una dirección del dominio desde el cual se envía.
+4. Confirmar que el hosting permite PHP mail() y, si no, integrar SMTP autenticado.
+5. Configurar las limitaciones de PHP: post_max_size > 22M, upload_max_filesize >= 10M.
+6. Hacer una consulta real y verificar recepción y archivos adjuntos (incluida carpeta spam).
+7. Adaptar la política de privacidad/consentimiento a las necesidades del negocio.
+
+El formulario pide nombre, contacto preferido, email/WhatsApp, invitados, fecha, evento,
+y permite adjuntar dos diseños (tapa y heladerita) o pedir el servicio de diseño.
+Máximo: 10 MB por archivo, 20 MB combinados.
+
+IMPORTANTE
+- La imagen principal, logos y fotos del producto fueron tomados del ZIP proporcionado.
+- No se inventaron precios, contactos comerciales ni enlaces a WhatsApp.
+- Los pedidos requieren un mínimo de 20 vasitos y 5 días de anticipación según la pieza aportada.
+- El envío de consulta NO confirma una reserva ni un pedido.
